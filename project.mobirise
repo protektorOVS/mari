@@ -1,0 +1,1086 @@
+{
+  "settings": {
+    "name": "MARI",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#c441d6",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Oswald",
+        "subtitleFont": "Lato",
+        "textFont": "Oswald",
+        "isRoundedButtons": true
+      }
+    },
+    "versionFirst": "3.9.2",
+    "uniqCompNum": 37,
+    "versionPublish": "3.10.5",
+    "favicon": "@PROJECT_PATH@/assets/images/2016-12-10-205251-128x86-50.png",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.6rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.650rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1",
+          "_params": {
+            "bgColor": "#fff",
+            "fontSize": "0.6",
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#989898",
+            "fontHoverColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2016-12-10-205251-190x128-24.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">главная<br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Торты<br></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Классический ванильный бисквит. </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Шоколадный бисквит страсти. </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Бисквит Королевы Виктории.  </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Морковный торт.   </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Красный Бархат.    </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Три шоколада (муссовый).     </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Наполеон.     </a></div></li>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_customHTML": "<section class=\"mbr-slider mbr-section mbr-section__container carousel slide slider3 mbr-section-nopadding mbr-after-navbar\" data-ride=\"carousel\" data-keyboard=\"false\" data-wrap=\"true\" data-interval=\"5000\">\n    <div>\n        <div>\n            <div>\n                <ol class=\"carousel-indicators\">\n                    <li data-app-prevent-settings=\"\" data-target=\"#slider3-3\" class=\"active\" data-slide-to=\"0\"></li><li data-app-prevent-settings=\"\" data-target=\"#slider3-3\" data-slide-to=\"1\"></li><li data-app-prevent-settings=\"\" data-target=\"#slider3-3\" data-slide-to=\"2\"></li><li data-app-prevent-settings=\"\" data-target=\"#slider3-3\" data-slide-to=\"3\"></li>\n                </ol>\n                <div class=\"carousel-inner\" role=\"listbox\">\n                    <div class=\"mbr-section mbr-section-hero carousel-item dark center mbr-section-full active\" data-bg-video-slide=\"false\" style=\"background-image: url(@PROJECT_PATH@/assets/images/dsc-0456-2000x1324-41.jpg);\">\n                        <div class=\"mbr-table-cell\">\n                            <div class=\"mbr-overlay\" style=\"opacity: 0.3; background-color: rgb(0, 0, 0);\"></div>\n                            <div class=\"container-slide container\">\n                                \n                                <div class=\"row\">\n                                    <div class=\"col-md-offset-1 col-md-10 vertical-middle\">\n                                        <h1 class=\"mbr-section-title styled mbr-editable-content\" code-editable-id=\"38\">Sweet Hope</h1>\n                                        <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"39\">Сладкая фантазия &nbsp;для любителей вкусных десертов, а так же для тех, кто обожает баловать родных и близких!<br></p>\n\n                                        <div class=\"mbr-section-btn\"><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"40\">Домашние эклеры</a><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"41\">шу</a> <a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"42\">меренги</a> <a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"43\">капкейки</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div><div class=\"mbr-section mbr-section-hero carousel-item dark center mbr-section-full\" data-bg-video-slide=\"false\" style=\"background-image: url(@THEME_PATH@/components/_images/slider/header2-slide1.jpg);\">\n                        <div class=\"mbr-table-cell\">\n                            <div class=\"mbr-overlay\"></div>\n                            <div class=\"container-slide container\">\n                                \n                                <div class=\"row\">\n                                    <div class=\"col-md-offset-1 col-md-10 vertical-middle\">\n                                        <h1 class=\"mbr-section-title styled mbr-editable-content\" code-editable-id=\"44\">SpaceM <em>Builder</em></h1>\n                                        <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"45\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum iure, repudiandae nobis ullam incidunt dicta molestiae libero, vel impedit doloribus dolorem ratione alias fugit.</p>\n\n                                        <div class=\"mbr-section-btn\"><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"46\">Purchase</a><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"47\">Learn more</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div><div class=\"mbr-section mbr-section-hero carousel-item dark center mbr-section-full\" data-bg-video-slide=\"false\" style=\"background-image: url(@THEME_PATH@/components/_images/slider/header2-slide2.jpg);\">\n                        <div class=\"mbr-table-cell\">\n                            <div class=\"mbr-overlay\"></div>\n                            <div class=\"container-slide container\">\n                                \n                                <div class=\"row\">\n                                    <div class=\"col-md-offset-1 col-md-10 vertical-middle\">\n                                        <h1 class=\"mbr-section-title styled mbr-editable-content\" code-editable-id=\"48\">Made for <em>You</em></h1>\n                                        <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"49\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos explicabo non dolor nobis, consectetur officiis optio quibusdam, repellendus harum unde sed saepe odit, quisquam.</p>\n\n                                        <div class=\"mbr-section-btn\"><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"50\">Purchase</a><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"51\">Learn more</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div><div class=\"mbr-section mbr-section-hero carousel-item dark center mbr-section-full\" data-bg-video-slide=\"false\" style=\"background-image: url(@THEME_PATH@/components/_images/slider/header2-slide4.jpg);\">\n                        <div class=\"mbr-table-cell\">\n                            <div class=\"mbr-overlay\"></div>\n                            <div class=\"container-slide container\">\n                                \n                                <div class=\"row\">\n                                    <div class=\"col-md-offset-1 col-md-10 vertical-middle\">\n                                        <h1 class=\"mbr-section-title styled mbr-editable-content\" code-editable-id=\"52\">Website <em>Maker</em></h1>\n                                        <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"53\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit porro doloremque sapiente qui repudiandae natus iste consequuntur labore ipsum, id nulla fuga accusantium explicabo illum.</p>\n\n                                        <div class=\"mbr-section-btn\"><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"54\">Purchase</a><a href=\"http://mobirise.com\" class=\"btn btn-primary mbr-editable-button mbr-editable-content\" role=\"button\" code-editable-id=\"55\">Learn more</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <figure class=\"swiper-arrow-left swiper-arrow type-1\" role=\"button\" data-slide=\"prev\" href=\"#slider3-3\">\n                    <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-left.svg\">\n                    <div class=\"mbr-slider-slide\"></div>\n                </figure>\n\n                 <figure class=\"swiper-arrow-right swiper-arrow type-1\" role=\"button\" data-slide=\"next\" href=\"#slider3-3\">\n                    <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-right.svg\">\n                    <div class=\"mbr-slider-slide\"></div>\n                </figure>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true,
+          "_styles": {
+            "H1": {
+              "color": "#94c693",
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
+            },
+            "P": {
+              "color": "#416072",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            "B": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            }
+          },
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0456-2000x1324-41.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#ffffff",
+                "showTitle": true,
+                "title": "Sweet Hope",
+                "showText": true,
+                "text": "<b>Сладкая фантазия &nbsp;для любителей вкусных десертов, а так же для тех, кто обожает баловать родных и близких!</b><br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Домашние эклеры</a><a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white\" role=\"button\" data-toolbar=\"-mbrBtnMove\">шу</a> <a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white\" role=\"button\" data-toolbar=\"-mbrBtnMove\">меренги</a> <a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white\" role=\"button\" data-toolbar=\"-mbrBtnMove\">капкейки</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-0658-2000x2000-56.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#ffffff",
+                "showTitle": true,
+                "title": "Sweet Hope",
+                "showText": true,
+                "text": "С любовью, а точнее, с Надеждой,создаём для вас торты, капкейки,а также многие другие вкусности.<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Learn more</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider3-3",
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-6",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showSeparator": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "subtitle": "Subtitle",
+          "title": "<span style=\"font-weight: normal;\"><i>Примеры работ</i></span>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x768",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/-q111dojn1m-2000x1325-88.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/q111dojn1m-2000x1325-88-1600x1200-2.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/q111dojn1m-2000x1325-88-85x48-10.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/bixndqjcexa-2000x1325-43.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/bixndqjcexa-2000x1325-43-1600x1200-31.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/bixndqjcexa-2000x1325-43-85x48-76.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0335-2000x1324-78.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0335-2000x1324-78-1600x1200-13.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0335-2000x1324-78-85x48-10.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0337-2000x1324-35.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0337-2000x1324-35-1600x1200-94.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0337-2000x1324-35-85x48-15.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0456-2000x1324-82.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0456-2000x1324-82-1600x1200-66.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0456-2000x1324-82-85x48-24.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0526-2000x1324-52.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0526-2000x1324-52-1600x1200-78.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0526-2000x1324-52-85x48-17.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0547-2000x1324-94.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0547-2000x1324-94-1600x1200-72.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0547-2000x1324-94-85x48-82.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0554-2000x1501-16.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0554-2000x1501-16-1600x1200-11.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0554-2000x1501-16-85x48-45.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/fbgnxdqrkuc-2000x1325-5.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/fbgnxdqrkuc-2000x1325-5-1600x1200-90.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/fbgnxdqrkuc-2000x1325-5-85x48-63.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0765-2000x3019-13.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0765-2000x3019-13-1600x1200-7.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0765-2000x3019-13-85x48-46.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/dsc-0800-2000x1963-6.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0800-2000x1963-6-1600x1200-61.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/dsc-0800-2000x1963-6-85x48-1.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/z5xefyapbfu-2000x1325-61.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/z5xefyapbfu-2000x1325-61-1600x1200-5.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/z5xefyapbfu-2000x1325-61-85x48-54.jpg"
+              }
+            ],
+            "theme": "absent",
+            "bgColor": "#ffffff",
+            "animType": "glass_parallax",
+            "autoplay": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "768",
+            "width": "1024",
+            "responsive": "2",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-5",
+          "articleLayout": false
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_styles": {
+            "H1": {
+              "font-size": "32px"
+            },
+            ".btn": {
+              "font-size": "10px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "3",
+            "slides": [
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0337-2000x1324-50.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Классический ванильный бисквит.&nbsp;",
+                "showText": true,
+                "text": "Для ценителей всего простого,без лишних вкусов!",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html#wowslider-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0547-2000x1324-15.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Шоколадный бисквит страсти.&nbsp;",
+                "showText": true,
+                "text": "Много шоколада и кофе.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/queen-victoria-1887-2000x2721-27.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Бисквит Королевы Виктории",
+                "showText": true,
+                "text": "Плотный,крепкий с приятным вкусом лимона.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/main-2000x1407-19.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Морковный торт.&nbsp;",
+                "showText": true,
+                "text": "Вкус пряностей: мускатный орех, корица, свежий имбирь и орехи.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html#wowslider-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/main-2000x1407-19.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Красный Бархат.&nbsp;",
+                "showText": true,
+                "text": "Бисквит красного цвета с влажной текстурой, пористый и нарядный.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html#wowslider-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/main-2000x1407-19.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Три шоколада (муссовый).",
+                "showText": true,
+                "text": "На классическом или шоколадном бисквите.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html#wowslider-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/main-2000x1407-19.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "overlayColor": "#222222",
+                "showTitle": true,
+                "title": "Наполеон.",
+                "showText": true,
+                "text": "На классическом или шоколадном бисквите.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#contacts1-f\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">заказать</a><a data-app-btn=\"true\" href=\"index.html#wowslider-5\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">посмотреть варианты</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider3-7",
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "color": "#94c693"
+            }
+          },
+          "_anchor": "title4-m",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showSeparator": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "subtitle": "Subtitle",
+          "title": "<span style=\"font-size: 2.5rem; line-height: 1.1; background-color: inherit;\">Начинка играет огромную роль в торте. Мы предлагаем Вам:</span><br>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
+        },
+        {
+          "title": "Text with heading",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_styles": {
+            "P": {
+              "text-align": "right",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "text9-n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/allergiya-na-orexi-2000x1333-4.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "Ореховая начинка."
+        },
+        {
+          "title": "Text with heading",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "text9-o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1125-7.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "Шоколадно-муссовая. (на молочном, белом или тёмном шоколаде)"
+        },
+        {
+          "title": "Text with heading",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_styles": {
+            "P": {
+              "text-align": "right",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "text9-p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-20150619-134143-2000x2000-77.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "Лимонный курд."
+        },
+        {
+          "title": "Text with heading",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_styles": {
+            "P": {
+              "text-align": "right",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "text9-q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-20140618133254-2000x1457-52.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "Кули из ягод на ваш выбор: черника, чёрная смородина, малина, клубника, вишня."
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider1",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "3",
+            "slides": [
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/q111dojn1m-2000x1325-16.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Свадебный торт",
+                "showText": true,
+                "text": "несмотря на то,что свадьба была 45 лет назад!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bixndqjcexa-2000x1325-12.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Свадебный торт",
+                "showText": true,
+                "text": "Когда-нибудь и нам такой торт дети подарят!",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              },
+              {
+                "contentAlign": "left",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/fbgnxdqrkuc-2000x1325-12.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Свадебный торт",
+                "showText": true,
+                "text": "Я влюбилась в этот торт. Вес: 2кг400 гр без оформления!<br>Внутри классический ванильный бисквит, много нежного крема, начинка из кули на \"пьяной\" вишни!<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider1-u",
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header3-10",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/0nfqhlqmatu-2000x1325-89.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/p6LxFEAfnMo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.35,
+            "overlayColor": "#151515",
+            "inverse": true,
+            "showMedia": true,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=p6LxFEAfnMo",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on"
+            }
+          },
+          "title": "Прежние капкейки",
+          "text": "но в новых и стильных капсулах-тюльпанах!<br>Отличный подарок для любимых и близких,а зимняя коробочка дополнит ваш сладкий подарок!",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_styles": {
+            "P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "showText": true,
+                "text": "Много тортов я кушивал,но такие знатные - впервые.",
+                "showTitle": true,
+                "title": "Чак Паланик"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "showText": true,
+                "text": "Есть торты...но есть и шедевры! так вот многие можно заказать тут.",
+                "showTitle": true,
+                "title": "Филип Киркоров"
+              },
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "showText": true,
+                "text": "Эти торты никогда не достовлялись в музей \"Поле Чудес\", кто то всегда их съедал раньше...",
+                "showTitle": true,
+                "title": "Леонид Якубович"
+              }
+            ],
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cocc6elpkew-2000x1325-20.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#eee",
+            "showBullets": true
+          },
+          "_anchor": "testimonials2-e",
+          "articleLayout": false
+        },
+        {
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/xc-2zxcnf0c-2000x1325-87.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "googleMap": {
+              "address": "санкт питербург",
+              "placeId": "ChIJ7WVKx4w3lkYR_46Eqz9nx20",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title": "Если Вы готовы заказать или есть вопросы? <br>Задавайте, ответим с удовольтсвием.",
+          "text": "Мы ответим каждому, для нас Ваше письмо очень важно.",
+          "form": {
+            "title": "MESSAGE",
+            "action": "protektor666@mail.ru",
+            "alerts": {
+              "success": " Вашего писмо у нас)...как можно скорее мы его прочтем и ответим.Спасибо Вам"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Имя"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "текст Вашего письма"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">отправить</a>",
+          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>address",
+          "text1": "Петрогад 11",
+          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
+          "text2": "<a href=\"mailto:sample@sample.com\">sample@sample.com</a>",
+          "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>phone",
+          "text3": "<p><a href=\"+79888915464\">+79888915464</a><a href=\"tel:+138 (095) 6526 538\"></a></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "32px"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social2",
+          "_anchor": "social2-j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/xc-2zxcnf0c-2000x1325-29.jpg",
+            "bgColor": "#e5e5e5",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "Оствавайтесь с нами",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"index.html\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://vk.com/wall-123596202\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://vk.com/wall-123596202\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>     <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"https://vk.com/wall-123596202\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-odnoklassniki\"></i></a> "
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-i",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2016 Все права для всех"
+        }
+      ]
+    }
+  }
+}
